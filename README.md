@@ -1,7 +1,13 @@
-<img src="screenshots/1.png" width="250">
-<img src="screenshots/ios1.png" width="250">
-<img src="screenshots/ios2.png" width="250">
-<img src="screenshots/ios3.png" width="250">
+
+<p float="left">
+  <img src="screenshots/1.png" width="250">
+</p>
+
+<p float="left">
+  <img src="screenshots/ios1.png" width="250">
+  <img src="screenshots/ios2.png" width="250">
+  <img src="screenshots/ios3.png" width="250">
+</p>
 
 
 ## Flutter Monnify Package
@@ -17,13 +23,10 @@ To use this package, add `flutter_monnify` as a [dependency in your pubspec.yaml
 import 'package:flutter_monnify/flutter_paystack.dart';
 
 TransactionResponse? response = await Monnify().checkout(
-      context, monnifyPayload(),
-      appBar: AppBarConfig(
-          titleColor: Colors.white, backgroundColor: Colors.red),
-      toast: ToastConfig(
-          color: Colors.black, backgroundColor: Colors.red));
+      context, 
+      monnifyPayload(),
+ );
 
-  //call the backend to verify transaction status before providing value
 ```
 
 No other configuration required&mdash;the plugin works out of the box.
@@ -74,10 +77,7 @@ class _PayWithMonnifyState extends State<PayWithMonnify> {
           onPressed: () async {
             TransactionResponse? response = await Monnify().checkout(
                 context, monnifyPayload(),
-                appBar: AppBarConfig(
-                    titleColor: Colors.white, backgroundColor: Colors.red),
-                toast: ToastConfig(
-                    color: Colors.black, backgroundColor: Colors.red));
+            );
 
             //call the backend to verify transaction status before providing value
           },
