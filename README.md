@@ -1,16 +1,16 @@
 
 ## Android
 <p float="left">
-  <img src="https://github.com/izedomi/flutter-monnify/raw/main/screenshots/android1.png" width="250">
-  <img src="https://github.com/izedomi/flutter-monnify/raw/main/screenshots/android2.png" width="250">
-  <img src="https://github.com/izedomi/flutter-monnify/raw/main/screenshots/android2.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/android1.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/android2.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/android3.png" width="250">
 </p>
 
 ## IOS
 <p float="left">
-  <img src="screenshots/ios1.png" width="250">
-  <img src="screenshots/ios2.png" width="250">
-  <img src="screenshots/ios3.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/ios1.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/ios2.png" width="250">
+  <img src="https://raw.githubusercontent.com/izedomi/flutter-monnify/main/screenshots/ios3.png" width="250">
 </p>
 
 
