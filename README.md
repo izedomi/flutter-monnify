@@ -1,9 +1,9 @@
 
 ## Android
 <p float="left">
-  <img src="screenshots/android1.png" width="250">
-  <img src="screenshots/android2.png" width="250">
-  <img src="screenshots/android3.png" width="250">
+  <img src="https://github.com/izedomi/flutter-monnify/blob/main/screenshots/android1.png" width="250">
+  <img src="https://github.com/izedomi/flutter-monnify/blob/main/screenshots/android2.png" width="250">
+  <img src="https://github.com/izedomi/flutter-monnify/blob/main/screenshots/android2.png" width="250">
 </p>
 
 ## IOS
