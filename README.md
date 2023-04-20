@@ -35,6 +35,8 @@ TransactionResponse? response = await Monnify().checkout(
 
 No other configuration required&mdash;the plugin works out of the box.
 
+Customize the appbar to suit your project's theme color using the `AppConfig` object.
+
 ## Example
 ``` dart
 import 'package:flutter/material.dart';
@@ -79,9 +81,12 @@ class _PayWithMonnifyState extends State<PayWithMonnify> {
         child: TextButton(
           child: const Text("Pay With Monnify SDK"),
           onPressed: () async {
-            TransactionResponse? response = await Monnify().checkout(
+             TransactionResponse? response = await Monnify().checkout(
                 context, monnifyPayload(),
-            );
+                appBar: AppBarConfig(
+                    titleColor: Colors.white, backgroundColor: Colors.red),
+                toast: ToastConfig(
+                    color: Colors.black, backgroundColor: Colors.red));
 
             //call the backend to verify transaction status before providing value
           },
