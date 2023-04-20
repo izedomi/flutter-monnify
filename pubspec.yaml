@@ -1,6 +1,6 @@
 name: flutter_monnify
 description: Monnify payment sdk for flutter. Supports both Android and IOS.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/izedomi/flutter-monnify
 
 environment:
